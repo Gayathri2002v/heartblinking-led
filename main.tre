@@ -1,0 +1,50 @@
+ÀÄmain
+   ÀÄmain  0/21  Ram=0
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄonoff  0/30  Ram=1
+      ³  ÃÄon  (Inline)  Ram=1
+      ³  ³  ÀÄcontroled  0/352  Ram=2
+      ³  ³     ÀÄ@goto10785  0/37  Ram=0
+      ³  ÃÄ@delay_ms1  0/21  Ram=1
+      ³  ÃÄoff  0/12  Ram=1
+      ³  ³  ÀÄcontroled  0/352  Ram=2
+      ³  ³     ÀÄ*
+      ³  ÀÄ@delay_ms1  0/21  Ram=1
+      ÃÄeffect1  0/25  Ram=2
+      ³  ÃÄcontroled  0/352  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄcontroled  0/352  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÀÄ@delay_ms1  0/21  Ram=1
+      ÃÄeffect2  0/33  Ram=2
+      ³  ÃÄoff  0/12  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/21  Ram=1
+      ³  ÃÄcontroled  0/352  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄcontroled  0/352  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÀÄ@delay_ms1  0/21  Ram=1
+      ÃÄeffect3  0/33  Ram=2
+      ³  ÃÄoff  0/12  Ram=1
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/21  Ram=1
+      ³  ÃÄcontroled  0/352  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/21  Ram=1
+      ³  ÃÄcontroled  0/352  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÀÄ@delay_ms1  0/21  Ram=1
+      ÀÄeffect4  0/58  Ram=2
+         ÃÄcontroled  0/352  Ram=2
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/21  Ram=1
+         ÃÄoff  0/12  Ram=1
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/21  Ram=1
+         ÃÄcontroled  0/352  Ram=2
+         ³  ÀÄ*
+         ÃÄ@delay_ms1  0/21  Ram=1
+         ÃÄoff  0/12  Ram=1
+         ³  ÀÄ*
+         ÀÄ@delay_ms1  0/21  Ram=1

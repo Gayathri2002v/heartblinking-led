@@ -1,0 +1,81 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+020     @TRIS_C
+021     effect1.i
+021     effect4.i
+021     effect2.i
+021     on.i
+021     effect3.i
+021     onoff.@SCRATCH1
+022     off.i
+022     effect1.@SCRATCH1
+022     effect2.@SCRATCH1
+022     effect3.@SCRATCH1
+022     effect4.@SCRATCH1
+023     controled.name
+023     @delay_ms1.P1
+024     controled.value
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  controled
+000164  @goto10785
+000189  @delay_ms1
+00019E  off
+0001AA  onoff
+0001AA  on
+0001C8  effect1
+0001E1  effect2
+000202  effect3
+000223  effect4
+00025D  @cinit1
+00025D  main
+000269  @cinit2
+
+Project Directory:
+    C:\Users\LENOVO\Documents\demo code\example\ex3\ex4\
+
+Project Files:
+    main.c                                                  [31-Jul-24 18:48  CRC=AD1069D9]
+    main.h                                                  [31-Jul-24 11:33  CRC=CF12E969]
+    ..\..\..\..\..\..\..\Program Files (x86)\PICC\Devices\16F877A.h [12-Nov-13 14:35  CRC=81334808]
+
+Source signature=7E89E352
+
+Units:
+    main (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-65535
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   main.xsym
+    Errors:      main.err
+    Ext Symbols: main.esym
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.ccspjt
+    Call Tree:   main.tre
+    Statistics:  main.STA
